@@ -20,21 +20,21 @@
         <asp:Panel ID="Game1" runat="server" Width="245px" HorizontalAlign="Left">
             <h3>Game: 1</h3>
             <asp:Label ID="lblgameresult" runat="server" Text="Game Result"></asp:Label>
-            <asp:RadioButtonList ID="GameResult" runat="server">
+            <asp:RadioButtonList ID="GameResult" runat="server" CssClass="radio">
                 <asp:ListItem Value="1" Text="Win" Selected="True"></asp:ListItem>
                 <asp:ListItem Value="0" Text="lose"></asp:ListItem>
             </asp:RadioButtonList>
-            <asp:Label ID="lblpointsored" runat="server" Text="Point Scored"></asp:Label>
-            <asp:TextBox ID="txtPoints" runat="server" required></asp:TextBox>
-            <asp:RegularExpressionValidator ID="RegularExpressionValidator1" ControlToValidate="txtPoints" Display="Dynamic" ValidationExpression="^[0-9]*$" runat="server" ErrorMessage="Allows numbers only"></asp:RegularExpressionValidator>
+            <asp:Label ID="lblpointsored" runat="server" Text="Point Scored"  ></asp:Label>
+            <asp:TextBox ID="txtPoints" runat="server" required CssClass="text-right"></asp:TextBox>*
+            <asp:RegularExpressionValidator ID="RegularExpressionValidator1" ControlToValidate="txtPoints" Display="None" ValidationExpression="^[0-9]*$" runat="server" ErrorMessage="Allows numbers only"></asp:RegularExpressionValidator>
             <br />
-            <asp:Label ID="lblpointallowed" runat="server" Text="Point Allowed"></asp:Label>
-            <asp:TextBox ID="txtPointallowed" runat="server" required></asp:TextBox>
-            <asp:RegularExpressionValidator ID="RegularExpressionValidator2" ControlToValidate="txtPointallowed" Display="Dynamic" ValidationExpression="^[0-9]*$" runat="server" ErrorMessage="Allows numbers only"></asp:RegularExpressionValidator>
+            <asp:Label ID="lblpointallowed" runat="server" Text="Point Allowed" ></asp:Label>
+            <asp:TextBox ID="txtPointallowed" runat="server" required CssClass="text-right"></asp:TextBox>*
+            <asp:RegularExpressionValidator ID="RegularExpressionValidator2" ControlToValidate="txtPointallowed" Display="None" ValidationExpression="^[0-9]*$" runat="server" ErrorMessage="Allows numbers only"></asp:RegularExpressionValidator>
             <br />
             <asp:Label ID="lblspectators" runat="server" Text="# Of Spectators"></asp:Label>
-            <asp:TextBox ID="txtSpectators" runat="server" required></asp:TextBox>
-            <asp:RegularExpressionValidator ID="RegularExpressionValidator3" ControlToValidate="txtSpectators" Display="Dynamic" ValidationExpression="^[0-9]*$" runat="server" ErrorMessage="Allows numbers only"></asp:RegularExpressionValidator>
+            <asp:TextBox ID="txtSpectators" runat="server" required CssClass="text-right"></asp:TextBox>*
+            <asp:RegularExpressionValidator ID="RegularExpressionValidator3" ControlToValidate="txtSpectators" Display="None" ValidationExpression="^[0-9]*$" runat="server" ErrorMessage="Allows numbers only"></asp:RegularExpressionValidator>
         </asp:Panel>
     </div>
     <%-- End of Game 1 --%>
@@ -48,16 +48,16 @@
                 <asp:ListItem Value="0" Text="lose"></asp:ListItem>
             </asp:RadioButtonList>
             <asp:Label ID="lblpointsored2" runat="server" Text="Point Scored"></asp:Label>
-            <asp:TextBox ID="txtPoints2" runat="server" required></asp:TextBox>
-            <asp:RegularExpressionValidator ID="RegularExpressionValidator4" ControlToValidate="txtPoints2" Display="Dynamic" ValidationExpression="^[0-9]*$" runat="server" ErrorMessage="Allows numbers only"></asp:RegularExpressionValidator>
+            <asp:TextBox ID="txtPoints2" runat="server" required CssClass="text-right"></asp:TextBox>*
+            <asp:RegularExpressionValidator ID="RegularExpressionValidator4" ControlToValidate="txtPoints2" Display="None" ValidationExpression="^[0-9]*$" runat="server" ErrorMessage="Allows numbers only"></asp:RegularExpressionValidator>
             <br />
             <asp:Label ID="lblpointallowed2" runat="server" Text="Point Allowed"></asp:Label>
-            <asp:TextBox ID="txtPointallowed2" runat="server" required></asp:TextBox>
-            <asp:RegularExpressionValidator ID="RegularExpressionValidator5" ControlToValidate="txtPointallowed2" Display="Dynamic" ValidationExpression="^[0-9]*$" runat="server" ErrorMessage="Allows numbers only"></asp:RegularExpressionValidator>
+            <asp:TextBox ID="txtPointallowed2" runat="server" required CssClass="text-right"></asp:TextBox>*
+            <asp:RegularExpressionValidator ID="RegularExpressionValidator5" ControlToValidate="txtPointallowed2" Display="None" ValidationExpression="^[0-9]*$" runat="server" ErrorMessage="Allows numbers only"></asp:RegularExpressionValidator>
             <br />
             <asp:Label ID="lblspectators2" runat="server" Text="# Of Spectators"></asp:Label>
-            <asp:TextBox ID="txtSpectators2" runat="server" required></asp:TextBox>
-            <asp:RegularExpressionValidator ID="RegularExpressionValidator6" ControlToValidate="txtSpectators2" Display="Dynamic" ValidationExpression="^[0-9]*$" runat="server" ErrorMessage="Allows numbers only"></asp:RegularExpressionValidator>
+            <asp:TextBox ID="txtSpectators2" runat="server" required CssClass="text-right"></asp:TextBox>*
+            <asp:RegularExpressionValidator ID="RegularExpressionValidator6" ControlToValidate="txtSpectators2" Display="None" ValidationExpression="^[0-9]*$" runat="server" ErrorMessage="Allows numbers only"></asp:RegularExpressionValidator>
         </asp:Panel>
     </div>
     <%-- End of Game 2 --%>
@@ -71,16 +71,16 @@
                 <asp:ListItem Value="0" Text="lose"></asp:ListItem>
             </asp:RadioButtonList>
             <asp:Label ID="lblpointsored3" runat="server" Text="Point Scored"></asp:Label>
-            <asp:TextBox ID="txtPoints3" runat="server" required></asp:TextBox>
-            <asp:RegularExpressionValidator ID="RegularExpressionValidator7" ControlToValidate="txtPoints3" Display="Dynamic" ValidationExpression="^[0-9]*$" runat="server" ErrorMessage="Allows numbers only"></asp:RegularExpressionValidator>
+            <asp:TextBox ID="txtPoints3" runat="server" required CssClass="text-right"></asp:TextBox>*
+            <asp:RegularExpressionValidator ID="RegularExpressionValidator7" ControlToValidate="txtPoints3" Display="None" ValidationExpression="^[0-9]*$" runat="server" ErrorMessage="Allows numbers only"></asp:RegularExpressionValidator>
             <br />
             <asp:Label ID="lblpointallowed3" runat="server" Text="Point Allowed"></asp:Label>
-            <asp:TextBox ID="txtPointallowed3" runat="server" required></asp:TextBox>
-            <asp:RegularExpressionValidator ID="RegularExpressionValidator8" ControlToValidate="txtPointallowed3" Display="Dynamic" ValidationExpression="^[0-9]*$" runat="server" ErrorMessage="Allows numbers only"></asp:RegularExpressionValidator>
+            <asp:TextBox ID="txtPointallowed3" runat="server" required CssClass="text-right"></asp:TextBox>*
+            <asp:RegularExpressionValidator ID="RegularExpressionValidator8" ControlToValidate="txtPointallowed3" Display="None" ValidationExpression="^[0-9]*$" runat="server" ErrorMessage="Allows numbers only"></asp:RegularExpressionValidator>
             <br />
             <asp:Label ID="lblspectators3" runat="server" Text="# Of Spectators"></asp:Label>
-            <asp:TextBox ID="txtSpectators3" runat="server" required></asp:TextBox>
-            <asp:RegularExpressionValidator ID="RegularExpressionValidator9" ControlToValidate="txtSpectators3" Display="Dynamic" ValidationExpression="^[0-9]*$" runat="server" ErrorMessage="Allows numbers only"></asp:RegularExpressionValidator>
+            <asp:TextBox ID="txtSpectators3" runat="server" required CssClass="text-right"></asp:TextBox>*
+            <asp:RegularExpressionValidator ID="RegularExpressionValidator9" ControlToValidate="txtSpectators3" Display="None" ValidationExpression="^[0-9]*$" runat="server" ErrorMessage="Allows numbers only"></asp:RegularExpressionValidator>
 
         </asp:Panel>
     </div>
@@ -95,23 +95,25 @@
                 <asp:ListItem Value="0" Text="lose"></asp:ListItem>
             </asp:RadioButtonList>
             <asp:Label ID="lblpointsored4" runat="server" Text="Point Scored"></asp:Label>
-            <asp:TextBox ID="txtPoints4" runat="server" required></asp:TextBox>
-            <asp:RegularExpressionValidator ID="RegularExpressionValidator10" ControlToValidate="txtPoints4" Display="Dynamic" ValidationExpression="^[0-9]*$" runat="server" ErrorMessage="Allows numbers only"></asp:RegularExpressionValidator>
+            <asp:TextBox ID="txtPoints4" runat="server" required CssClass="text-right"></asp:TextBox>*
+            <asp:RegularExpressionValidator ID="RegularExpressionValidator10" ControlToValidate="txtPoints4" Display="None" ValidationExpression="^[0-9]*$" runat="server" ErrorMessage="Allows numbers only"></asp:RegularExpressionValidator>
             <br />
             <asp:Label ID="lblpointallowed4" runat="server" Text="Point Allowed"></asp:Label>
-            <asp:TextBox ID="txtPointallowed4" runat="server" required></asp:TextBox>
-            <asp:RegularExpressionValidator ID="RegularExpressionValidator11" ControlToValidate="txtPointallowed4" Display="Dynamic" ValidationExpression="^[0-9]*$" runat="server" ErrorMessage="Allows numbers only"></asp:RegularExpressionValidator>
+            <asp:TextBox ID="txtPointallowed4" runat="server" required CssClass="text-right"></asp:TextBox>*
+            <asp:RegularExpressionValidator ID="RegularExpressionValidator11" ControlToValidate="txtPointallowed4" Display="None" ValidationExpression="^[0-9]*$" runat="server" ErrorMessage="Allows numbers only"></asp:RegularExpressionValidator>
             <br />
             <asp:Label ID="lblspectators4" runat="server" Text="# Of Spectators"></asp:Label>
-            <asp:TextBox ID="txtSpectators4" runat="server" required></asp:TextBox>
-            <asp:RegularExpressionValidator ID="RegularExpressionValidator12" ControlToValidate="txtSpectators4" Display="Dynamic" ValidationExpression="^[0-9]*$" runat="server" ErrorMessage="Allows numbers only"></asp:RegularExpressionValidator>
+            <asp:TextBox ID="txtSpectators4" runat="server" required CssClass="text-right"></asp:TextBox>*
+            <asp:RegularExpressionValidator ID="RegularExpressionValidator12" ControlToValidate="txtSpectators4" Display="None" ValidationExpression="^[0-9]*$" runat="server" ErrorMessage="Allows numbers only"></asp:RegularExpressionValidator>
 
         </asp:Panel>
     </div>
     <%-- End of Game 4 --%>
+    <%-- Start summery --%>
     <div style="float: none;">
-        <asp:Button ID="btnSummery" runat="server" Text="Summery" Width="70px" CssClass="btn-danger" OnClick="btnSummery_Click" />
+        <asp:Button ID="btnSummery" runat="server" Text="Summery" Width="90px" CssClass="btn-danger" OnClick="btnSummery_Click" />
     </div>
+    <%-- End of summry --%>
 
     <%-- Score board --%>
     <div>
@@ -135,12 +137,22 @@
             <asp:Label ID="PointDiffHide" runat="server" Text=""></asp:Label>
             <br />
             <asp:Label ID="TotalSpectatorShow" runat="server" Text="Total Spectators"></asp:Label>
-            <asp:Label ID="TotalSpectatorHide" runat="server" Text=""></asp:Label>
+            <asp:Label ID="TotalSpectatorHide" runat="server" Text="
+                "></asp:Label>
             <br />
             <asp:Label ID="AverageSpectatorsShow" runat="server" Text="AverageSpectatorsShow"></asp:Label>
             <asp:Label ID="AverageSpectatorsHide" runat="server" Text=""></asp:Label>
         </asp:Panel>
     </div>
-    
+    <div>
+        <asp:ValidationSummary 
+     id="programmaticID" 
+     DisplayMode="BulletList" 
+     EnableClientScript="true"
+     ShowSummary="true"
+     ShowMessageBox="true"                        
+     HeaderText="* This is compulsory"
+     runat="server" CssClass="alert-info"/>
+    </div>
     <%-- End of scoreboard --%>
 </asp:Content>
